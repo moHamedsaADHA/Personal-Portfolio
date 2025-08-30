@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Mohammed Saad</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="about-me.css" />
+  </head>
+  <body class="light-mode">
+    <div id="top"></div>
+    <!-- Navigation Bar with Toggle Button -->
+    <nav class="navbar navbar-expand-lg mb-4">
+      <div class="container">
+  <a class="navbar-brand fw-bold" href="#">Mohammed Saad</a>
+  <a class="navbar-brand fw-bold ms-3 active" href="#top">About Me</a>
+        <a class="nav-link ms-3 fw-semibold projects-link" href="#education-timeline" style="color: white;">Education</a>
+        <a class="nav-link ms-3 fw-semibold projects-link" href="#projects" style="color: white;">Projects</a>
+        <a class="nav-link ms-3 fw-semibold projects-link" href="#skills" style="color: white;">Skills</a>
+        <a class="nav-link ms-3 fw-semibold projects-link" href="#services" style="color: white;">Services</a>
+        <a class="nav-link ms-3 fw-semibold projects-link" href="#feedback" style="color: white;">Feedbacks</a>
+
+        <button class="btn btn-toggle ms-auto" id="modeToggle">
+          Dark Mode
+        </button>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about-section py-5">
+      <div class="container">
+        <div class="row justify-content-center align-items-start">
+          <div
+            class="col-12 col-md-4 d-flex justify-content-md-start justify-content-center mb-4 mb-md-0"
+            style="margin-top: 40px"
+          >
+            <div class="profile-photo-animated">
+              <img
+                src="/about/484952636_1241690524215326_344729721942467180_n.jpg"
+                alt="Profile Photo"
+              />
+              <div class="orbit-circle">
+                <div class="orbit-dot"></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-8 about-content d-flex flex-column justify-content-center"
+            style="font-size: 1.25rem"
+          >
+            <h2 class="fw-bold mb-2">Mohammed Saad</h2>
+            <h4 class="mb-3 job-title-light">
+              Full-Stack Developer | UI/UX Designer | Project Management
+            </h4>
+            <p class="mb-3">
+              With 2+ years of freelance experience and 14 completed projects
+              (including 12 full-stack web applications and 2 specialized
+              front-end/back-end projects), I deliver scalable and responsive
+              applications using the MEAN Stack (MongoDB, Express.js, Angular,
+              Node.js).
+            </p>
+            <p class="mb-3">
+              Skilled in UI/UX design, HTML5, CSS3, JavaScript, TypeScript,
+              Node.js, and MongoDB. Experienced in managing project timelines,
+              client communications, and delivering high-quality digital
+              solutions.
+            </p>
+            <p class="mb-3">
+              Certified in English (B2) and multiple technical courses including
+              UI/UX, MEAN Stack, and Back-End Development. Passionate about
+              problem-solving, creative design, teamwork, and building modern
+              digital products.
+            </p>
+            <p class="mb-0"><strong>Let’s connect!</strong></p>
+            <!-- Social Links -->
+            <div
+              class="d-inline-flex align-items-center gap-3 ms-4"
+              style="
+                position: relative;
+                top: -50px;
+                float: right;
+                right: -320px;
+              "
+            >
+              <a
+                href="https://github.com/moHamedsaADHA"
+                target="_blank"
+                class="contact-icon-link"
+              >
+                <span class="contact-icon-animated github">
+                  <!-- GitHub Icon -->
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="14" fill="white" />
+                    <path
+                      d="M16 6C11.03 6 7 10.03 7 15C7 19.07 9.93 22.36 13.84 23.5C14.34 23.59 14.5 23.27 14.5 23.01C14.5 22.77 14.49 22.13 14.49 21.38C11.67 21.91 11.14 20.13 11.14 20.13C10.68 19.01 10.03 18.72 10.03 18.72C9.09 18.09 10.1 18.1 10.1 18.1C11.13 18.18 11.67 19.16 11.67 19.16C12.6 20.7 14.09 20.25 14.65 20.01C14.74 19.36 14.99 18.93 15.27 18.7C12.98 18.47 10.6 17.62 10.6 14.5C10.6 13.62 10.91 12.93 11.43 12.39C11.34 12.16 11.07 11.27 11.52 10.13C11.52 10.13 12.22 9.89 14.5 11.19C15.18 11.01 15.91 10.92 16.64 10.92C17.37 10.92 18.1 11.01 18.78 11.19C21.06 9.89 21.76 10.13 21.76 10.13C22.21 11.27 21.94 12.16 21.85 12.39C22.37 12.93 22.68 13.62 22.68 14.5C22.68 17.63 20.29 18.47 18 18.7C18.36 18.99 18.68 19.57 18.68 20.41C18.68 21.54 18.67 22.62 18.67 23.01C18.67 23.27 18.83 23.59 19.33 23.5C23.24 22.36 26.17 19.07 26.17 15C26.17 10.03 22.14 6 17.17 6H16Z"
+                      fill="#333"
+                    />
+                  </svg>
+                </span>
+              </a>
+              <!-- LinkedIn -->
+              <a
+                href="https://www.linkedin.com/in/mohammed-saad-b33767320/"
+                target="_blank"
+                class="contact-icon-link"
+              >
+                <span class="contact-icon-animated linkedin">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="14" fill="white" />
+                    <path
+                      d="M12.5 13.5H10V22H12.5V13.5ZM11.25 12.5C12.08 12.5 12.75 11.83 12.75 11C12.75 10.17 12.08 9.5 11.25 9.5C10.42 9.5 9.75 10.17 9.75 11C9.75 11.83 10.42 12.5 11.25 12.5ZM22 17.5C22 15.29 20.21 13.5 18 13.5C16.79 13.5 15.75 14.21 15.25 15.21V13.5H12.75V22H15.25V17.5C15.25 16.67 15.92 16 16.75 16C17.58 16 18.25 16.67 18.25 17.5V22H20.75V17.5C20.75 16.12 19.63 15 18.25 15C16.87 15 15.75 16.12 15.75 17.5V22H18.25V17.5Z"
+                      fill="#0077b5"
+                    />
+                  </svg>
+                </span>
+              </a>
+              <!-- WhatsApp -->
+              <a
+                href="https://api.whatsapp.com/send/?phone=201092731005&text&type=phone_number&app_absent=0"
+                target="_blank"
+                class="contact-icon-link"
+              >
+                <span class="contact-icon-animated whatsapp">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="14" fill="white" />
+                    <path
+                      d="M16 8C12.13 8 9 11.13 9 15C9 16.38 9.47 17.64 10.28 18.64L9 23L13.36 21.72C14.36 22.53 15.62 23 17 23C20.87 23 24 19.87 24 16C24 12.13 20.87 9 17 9C16.45 9 15.91 9.07 15.39 9.21C15.13 9.28 14.97 9.54 15.04 9.8C15.11 10.06 15.37 10.22 15.63 10.15C16.09 10.03 16.55 10 17 10C20.31 10 23 12.69 23 16C23 19.31 20.31 22 17 22C15.62 22 14.36 21.53 13.36 20.72L12.28 21.28L13.28 20.36C12.47 19.36 12 18.1 12 16.72C12 12.85 15.13 9.72 19 9.72C19.55 9.72 20.09 9.79 20.61 9.93C20.87 10 21.03 10.26 20.96 10.52C20.89 10.78 20.63 10.94 20.37 10.87C19.91 10.75 19.45 10.72 19 10.72C15.69 10.72 13 13.41 13 16.72C13 20.59 16.13 23.72 20 23.72C20.55 23.72 21.09 23.65 21.61 23.51C21.87 23.44 22.03 23.18 21.96 22.92C21.89 22.66 21.63 22.5 21.37 22.57C20.91 22.69 20.45 22.72 20 22.72C16.69 22.72 14 20.03 14 16.72C14 12.85 17.13 9.72 21 9.72C21.55 9.72 22.09 9.79 22.61 9.93C22.87 10 23.03 10.26 22.96 10.52C22.89 10.78 22.63 10.94 22.37 10.87C21.91 10.75 21.45 10.72 21 10.72C17.69 10.72 15 13.41 15 16.72C15 20.59 18.13 23.72 22 23.72C22.55 23.72 23.09 23.65 23.61 23.51C23.87 23.44 24.03 23.18 23.96 22.92C23.89 22.66 23.63 22.5 23.37 22.57C22.91 22.69 22.45 22.72 22 22.72Z"
+                      fill="#25d366"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- Education Timeline Section -->
+    <section id="education-timeline">
+      <h2
+        class="timeline-section-title text-center"
+        style="position: relative; top: -cm"
+      >
+        🎓 Education Timeline
+      </h2>
+      <div class="timeline-line"></div>
+      <div class="timeline-card left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2024 – 2028</span>
+          <h3 class="timeline-title">
+            Bachelor of Computer Science & Artificial Intelligence
+          </h3>
+          <p class="timeline-desc">
+            South Valley National University – Faculty of Computers & AI<br />
+            Qena, Egypt<br />
+            Relevant Coursework: Data Structures & Algorithms, OOP, DBMS,
+            Software Engineering, Web Development (MEAN Stack), Artificial
+            Intelligence Fundamentals.<br />
+            Achievements: National Programming Competitions, Academic Excellence
+            Award.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-card right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2024 – 2025</span>
+          <h3 class="timeline-title">Competitions & Certifications</h3>
+          <p class="timeline-desc">
+            Successfully participated in
+            <strong>Dandara Al Ebdaa</strong> training program, gaining hands-on
+            experience in modern technologies and practical projects.
+            <br />
+            • <strong>UI/UX Design using Figma (+40h):</strong> Learned design
+            principles, prototyping, and building user-centered interfaces.
+            <br />
+            • <strong>Node.js & MongoDB (+140h):</strong> Deep dive into backend
+            development, RESTful APIs, database design, authentication, and
+            real-world application building.
+            <br />
+            These certifications enhanced both my <em>technical skills</em> and
+            <em>problem-solving abilities</em>, preparing me to work on
+            full-stack projects efficiently.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-card left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2025 – 2026</span>
+          <h3 class="timeline-title">NTI Training Program</h3>
+          <p class="timeline-desc">
+            Completed an intensive <strong>+210h training track</strong> with
+            the <strong>National Telecommunication Institute (NTI)</strong>,
+            under the Egyptian Ministry of Communications.
+            <br />
+            • Specialized in <strong>MEAN Stack</strong> (MongoDB, Express.js,
+            Angular, Node.js) with advanced and practical focus.
+            <br />
+            • Developed <strong>3 real-world projects</strong>, of which
+            <strong>2 were officially accepted</strong>.
+            <br />
+            • Gained deep knowledge in full-stack development, problem-solving,
+            and industry-level best practices.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-card right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2023 – 2024</span>
+          <h3 class="timeline-title">Competitions</h3>
+          <p class="timeline-desc">
+            Graduated with honors, actively engaged in mathematics and computer
+            science.
+            <br />
+            • Participated in the
+            <strong
+              >ICPC 2023 (International Collegiate Programming Contest)</strong
+            >, focusing on <strong>Problem Solving</strong> using
+            <strong>C++</strong>.
+            <br />
+            • Enhanced algorithmic thinking, teamwork, and competitive
+            programming skills through real-world challenges.
+          </p>
+        </div>
+      </div>
+      <!-- Add more milestones as needed -->
+    </section>
+
+    <!-- ===== Projects Section ===== -->
+    <section id="projects" class="py-5">
+      <div class="container">
+        <h2 class="fw-bold text-center mb-5">🧩 Projects</h2>
+
+        <div class="projects-card shadow-lg border-0 rounded-4 p-4 p-md-5">
+          <div class="project-list">
+            <!-- Project 1 -->
+            <div class="row align-items-center mb-5">
+              <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <img
+                  src="/about/Screenshot 2025-08-16 170409.png"
+                  alt="Project 1 - Is-Used"
+                  class="img-fluid w-100"
+                  style="
+                    max-height: 400px;
+                    object-fit: cover;
+                    border-radius: 1rem;
+                  "
+                />
+              </div>
+              <div class="col-12 col-md-6">
+                <h5 class="project-title">Is-Used (IS)</h5>
+                <p class="project-desc">
+                  Backend development for a full-stack marketplace built with
+                  MEAN: Designed and implemented the backend architecture of a
+                  marketplace platform that allows users to buy and sell new and
+                  used products at competitive prices. Focused on building a
+                  secure and scalable server-side system using Node.js and
+                  Express.js, with MongoDB as the main database for storing
+                  users, products, categories, and transactions. Implemented
+                  RESTful APIs, authentication & authorization (JWT), and data
+                  validation to ensure smooth interaction between the frontend
+                  and backend. Also applied error handling, middleware
+                  structure, and optimized database queries for better
+                  performance. This project was developed as part of an academic
+                  initiative, completed in over 50+ hours within one week, and
+                  supported by 7+ certified courses from Egypt’s Ministry of
+                  Communications.
+                </p>
+                <div style="margin-top: 10px">
+                  <a
+                    href="https://lnkd.in/dmZgMRXv"
+                    target="_blank"
+                    style="
+                      color: var(--primary);
+                      text-decoration: underline;
+                      font-weight: 500;
+                    "
+                    >Live Demo</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-separator"></div>
+            <!-- Project 2 -->
+            <div class="row align-items-center mb-5">
+              <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <img
+                  src="/about/D_L.png"
+                  alt="Project 2 - Attendance App"
+                  class="img-fluid w-100"
+                  style="
+                    max-height: 400px;
+                    object-fit: cover;
+                    border-radius: 1rem;
+                  "
+                />
+              </div>
+              <div class="col-12 col-md-6">
+                <h5 class="project-title">Attendance Tracker</h5>
+                <p class="project-desc">
+                  Rfouf – Digital Library Platform A responsive and
+                  user-friendly digital library system that allows users to
+                  explore, search, and organize their personal book collections.
+                  The platform enables user registration/login, book
+                  categorization, creating favorite lists, and tracking reading
+                  progress in an intuitive interface. I mainly worked on the
+                  backend logic (if you want to highlight just your role, I can
+                  adjust it), while ensuring seamless integration with the
+                  frontend. Key Features: User authentication and account
+                  management Dynamic book browsing and category filters Favorite
+                  lists and progress tracking per user Responsive design
+                  optimized for different devices Technologies Used: Frontend:
+                  HTML, CSS, JavaScript Tools & Workflow: GitHub for version
+                  control, team collaboration Team Collaboration: Built in
+                  collaboration with a 6-member team as part of a university
+                  course project. My role involved both feature implementation
+                  and ensuring project delivery within deadlines. Duration:
+                  Developed over several weeks as part of coursework.
+                </p>
+                <div style="margin-top: 10px">
+                  <a
+                    href="https://mohamefawzy.github.io/RFOUF/sign%20up.html"
+                    target="_blank"
+                    style="
+                      color: var(--primary);
+                      text-decoration: underline;
+                      font-weight: 500;
+                    "
+                    >Live Demo</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-separator"></div>
+            <!-- Project 3 -->
+            <div class="row align-items-center mb-5">
+              <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <img
+                  src="/about/code.png"
+                  alt="Project 3 - Portfolio Website"
+                  class="img-fluid w-100"
+                  style="
+                    max-height: 400px;
+                    object-fit: cover;
+                    border-radius: 1rem;
+                  "
+                />
+              </div>
+              <div class="col-12 col-md-6">
+                <h5 class="project-title">E-learning</h5>
+                <p class="project-desc">
+                  E-learning platform built with Node.js & Express, providing
+                  secure RESTful APIs for courses and users with JWT and
+                  middleware (Helmet, Rate Limiting). Supports file uploads,
+                  payments, reviews, and dashboards for students & instructors.
+                  Fully tested with Postman and completed in 26 hours over 3
+                  days. Core Technologies & Components: Node.js + Express.js:
+                  Build RESTful APIs for users, courses, auth, and payments with
+                  Express Router for clean routes. Security Middleware: Helmet,
+                  Rate Limiting, CORS, express-validator. JWT Authentication:
+                  Secure login/logout with role-based access (Student,
+                  Instructor, Admin). Database: MongoDB (via Mongoose) to store
+                  users, courses, reviews, payments. File Handling: Upload via
+                  Multer, store on AWS S3/Cloudinary. Best Practices: bcrypt
+                  password hashing, prevent SQL/NoSQL Injection, XSS, CSRF.
+                  Testing & Docs: Postman for API testing, Swagger/Postman for
+                  documentation. Extra Features: Payments (Stripe/PayPal),
+                  Notifications, Admin Dashboard API.
+                </p>
+              </div>
+            </div>
+            <div class="project-separator"></div>
+            <!-- Project 4 -->
+            <div class="row align-items-center mb-5">
+              <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <img
+                  src="/about/Screenshot 2025-08-27 211302.png"
+                  alt="Project 4 - Cinema DB"
+                  class="img-fluid w-100"
+                  style="
+                    max-height: 400px;
+                    object-fit: cover;
+                    border-radius: 1rem;
+                  "
+                />
+              </div>
+              <div class="col-12 col-md-6">
+                <h5 class="project-title">Personal Portfolio</h5>
+                <p class="project-desc">
+                  This is a fully responsive Portfolio Website developed using
+                  HTML, CSS, Bootstrap, JavaScript, and jQuery, created to
+                  present my professional identity, projects, and technical
+                  expertise in a clean and modern way. The design focuses on
+                  user experience, offering both Light Mode and Dark Mode to
+                  suit different preferences, along with smooth animations and
+                  interactive elements that make navigation engaging and
+                  intuitive. The portfolio highlights my journey as a developer,
+                  showcasing a variety of real-world projects built with modern
+                  technologies. It includes a detailed About Me section, a
+                  comprehensive Skills section that outlines my technical
+                  strengths, and a Projects section that demonstrates my ability
+                  to design, develop, and deploy complete solutions.
+                  Additionally, the site features an integrated Contact form for
+                  professional communication, ensuring potential collaborators,
+                  clients, or employers can reach out easily. With its clean
+                  structure, Bootstrap-powered responsiveness, and dynamic
+                  enhancements using JavaScript and jQuery, the portfolio
+                  reflects both creativity.
+                </p>
+              </div>
+            </div>
+            <div class="project-separator"></div>
+            <!-- Project 5 -->
+            <div class="row align-items-center mb-5">
+              <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <img
+                  src="/about/010010101.jpg"
+                  alt="Project 5 - Chat App"
+                  class="img-fluid w-100"
+                  style="
+                    max-height: 400px;
+                    object-fit: cover;
+                    border-radius: 1rem;
+                  "
+                />
+              </div>
+              <div class="col-12 col-md-6">
+                <h5 class="project-title">Real-time Chat App</h5>
+                <p class="project-desc">
+                  Socket-based real-time chat with rooms, typing indicators and
+                  message persistence.
+                </p>
+              </div>
+            </div>
+            <div class="project-separator"></div>
+            <!-- Project 6 -->
+            <div class="row align-items-center mb-5">
+              <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <img
+                  src="/about/code-war.png"
+                  alt="Project 6 - AI Mini-Project"
+                  class="img-fluid w-100"
+                  style="
+                    max-height: 400px;
+                    object-fit: cover;
+                    border-radius: 1rem;
+                  "
+                />
+              </div>
+              <div class="col-12 col-md-6">
+                <h5 class="project-title">AI Classification Tool</h5>
+                <p class="project-desc">
+                  Prototype using basic ML model to classify data; includes data
+                  preprocessing & visualization.
+                </p>
+              </div>
+            </div>
+            <div class="project-separator"></div>
+          </div>
+          <!-- .project-grid -->
+        </div>
+        <!-- .projects-card -->
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2 class="section-title"><span>🛠️</span> <span>My Skills</span></h2>
+
+      <div class="skills-container">
+        <!-- Technical Skills -->
+        <div class="skills-box">
+          <h3 style="color: #000000; font-weight: bold;">Technical Skills</h3>
+          <ul class="bullet-check skills-content-light">
+            <li>
+              Web Development using MEAN: HTML5, CSS3, JavaScript (ES6+),
+              TypeScript, Node.js, Express.js, Angular
+            </li>
+            <li>
+              Databases & Backend: MongoDB, JSON, RESTful APIs, Middleware,
+              Regular Expressions
+            </li>
+            <li>
+              Programming & CS Fundamentals: OOP, Data Structures & Algorithms,
+              Parallel Programming, C++
+            </li>
+            <li>Version Control & Tools: Git, GitHub, Postman</li>
+            <li>UI/UX Design</li>
+          </ul>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skills-box">
+          <h3 style="color: #000000;  font-weight: bold;">Soft Skills</h3>
+          <ul class="bullet-trophy skills-content-light">
+            <li>Problem Solving & Critical Thinking</li>
+            <li>Teamwork & Collaboration</li>
+            <li>Project Management</li>
+            <li>Social & Professional Communication</li>
+            <li>Time Management</li>
+            <li>Adaptability & Flexibility</li>
+            <li>English as a Second Language (ESL)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+  <!-- لا يوجد محتوى في اللايت مود -->
+
+      <!-- محتوى الدارك مود فقط -->
+      <div class="dark-mode-img-only">
+        <div class="services-dark-container" style="position: relative">
+          <div class="services-dark-box left">
+            <h3>My Services</h3>
+            <ul>
+              <li>Full-Stack Web Apps</li>
+              <li>Responsive Websites with Modern UI/UX</li>
+              <li>RESTful APIs & Dashboard Development</li>
+              <li>Auth Systems (JWT, Role-based)</li>
+              <li>Dark/Light Mode Integration</li>
+              <li>Problem Solving Training (C++)</li>
+            </ul>
+          </div>
+          <img
+            src="/about/ser.png"
+            alt="Services"
+            class="services-bg-img"
+            style="
+              width: 100%;
+              max-width: 500px;
+              margin: 0 32px;
+              position: relative;
+              display: inline-block;
+              border-radius: 18px;
+              box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
+              vertical-align: middle;
+            "
+          />
+          <div class="services-dark-box right" style="position: relative">
+            <h3>Special Offers</h3>
+            <ul>
+              <li>✨ Free revisions for up to <strong>3 days</strong> after delivery on any service.</li>
+              <li>⚡ Fast delivery with high-quality and clean code.</li>
+              <li>🤝 Full support and communication during the project.</li>
+              <li>📌 Customized solutions tailored to client needs.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback" class="feedback-section">
+      <h2 class="feedback-title">Feedbacks</h2>
+      <div
+        class="feedback-images-row"
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 24px;
+          margin: 32px auto;
+        "
+      >
+        <img
+          src="/about/feedbacks.png"
+          alt="Feedbacks"
+          style="
+            width: 1300px;
+            height: 860px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+          "
+        />
+        <!-- <img src="/about/feeedbackks.png" alt="Code War" style="width:300px;height:220px;object-fit:cover;border-radius:18px;box-shadow:0 4px 24px rgba(0,0,0,0.08);"> -->
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="about-me.js"></script>
+    <script>
+        function forceFirstActiveLightMode() {
+          var allLinks = document.querySelectorAll('.navbar .nav-link');
+          if(!document.body.classList.contains('dark-mode') && allLinks.length > 0) {
+            allLinks.forEach(function(l, idx) {
+              l.classList.remove('active');
+              l.removeAttribute('style');
+            });
+            allLinks[0].classList.add('active');
+            allLinks[0].setAttribute('style', 'background: linear-gradient(90deg, #eaf6fb 70%, #00eaff 100%) !important; color: #0077b5 !important; border-radius: 14px !important; box-shadow: 0 0 16px 2px #00eaff44, 0 0 32px 8px #eaf6fb88 !important; border: 2px solid #00eaff !important; font-weight: bold !important; outline: 2px solid #eaf6fb !important;');
+          }
+        }
+      window.onload = function() {
+        function setActiveNavLink(link) {
+          document.querySelectorAll('.navbar .nav-link, .navbar .navbar-brand').forEach(function(l) {
+            l.classList.remove('active');
+            l.removeAttribute('style');
+            if(document.body.classList.contains('dark-mode')) {
+              l.setAttribute('style', 'color: #fff !important; background: transparent !important;');
+            } else {
+              l.setAttribute('style', 'color: #222 !important; background: transparent !important;');
+            }
+          });
+          // Always apply active style to the clicked/active link
+          link.classList.add('active');
+          if(document.body.classList.contains('dark-mode')) {
+            link.setAttribute('style', 'background: #37ff00 !important; color: #111 !important; border-radius: 10px !important; box-shadow: 0 0 12px 2px #37ff0044 !important; border: none !important; outline: none !important;');
+          } else {
+            link.setAttribute('style', 'background: linear-gradient(90deg, #eaf6fb 70%, #00eaff 100%) !important; color: #0077b5 !important; border-radius: 14px !important; box-shadow: 0 0 16px 2px #00eaff44, 0 0 32px 8px #eaf6fb88 !important; border: 2px solid #00eaff !important; font-weight: bold !important; outline: 2px solid #eaf6fb !important;');
+          }
+        }
+        function updateNavbarLinkColors() {
+          document.querySelectorAll('.navbar .nav-link, .navbar .navbar-brand').forEach(function(link) {
+            if(document.body.classList.contains('dark-mode')) {
+              if(!link.classList.contains('active')) {
+                link.setAttribute('style', 'color: #fff !important; background: transparent !important;');
+              }
+            } else {
+              if(!link.classList.contains('active')) {
+                link.setAttribute('style', 'color: #222 !important; background: transparent !important;');
+              }
+            }
+          });
+          var activeLink = document.querySelector('.navbar .nav-link.active, .navbar .navbar-brand.active');
+          if(activeLink && document.body.classList.contains('dark-mode')) {
+            activeLink.setAttribute('style', 'background: #37ff00 !important; color: #111 !important; border-radius: 10px !important; box-shadow: 0 0 12px 2px #37ff0044 !important; border: none !important; outline: none !important;');
+          } else if(activeLink) {
+            // مربع أزرق سماوي واضح
+            activeLink.setAttribute('style', 'background: linear-gradient(90deg, #eaf6fb 70%, #00eaff 100%) !important; color: #0077b5 !important; border-radius: 14px !important; box-shadow: 0 0 16px 2px #00eaff44, 0 0 32px 8px #eaf6fb88 !important; border: 2px solid #00eaff !important; font-weight: bold !important; outline: 2px solid #eaf6fb !important;');
+          }
+        }
+        // تفعيل السلاسة عند الضغط على أي رابط في النافبار
+        document.querySelectorAll('.navbar .nav-link, .navbar .navbar-brand').forEach(function(link) {
+          link.addEventListener('click', function(e) {
+            var href = link.getAttribute('href');
+            if(href && href.startsWith('#')) {
+              var target = document.querySelector(href);
+              if(target) {
+                e.preventDefault();
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                setActiveNavLink(this);
+              }
+            } else {
+              setActiveNavLink(this);
+            }
+          });
+        });
+        document.getElementById('modeToggle').addEventListener('click', function() {
+          setTimeout(updateNavbarLinkColors, 100);
+        });
+
+        // Scroll spy: change active link based on section in view
+        const sectionIds = ['education-timeline', 'projects', 'skills', 'services', 'feedback'];
+        const navLinks = sectionIds.map(id => {
+          // Match both .nav-link and .projects-link for all section links
+          return document.querySelector('.navbar .nav-link[href="#' + id + '"]') || document.querySelector('.navbar .projects-link[href="#' + id + '"]');
+        });
+        const sections = sectionIds.map(id => document.getElementById(id));
+
+        function onScrollSpy() {
+          // إذا كان المستخدم في أعلى الصفحة (قبل أول سكشن)
+          const firstSection = sections[0];
+          if (firstSection) {
+            const rect = firstSection.getBoundingClientRect();
+            if (window.scrollY < firstSection.offsetTop - 80) {
+              // نشط فقط رابط About Me
+              var allLinks = document.querySelectorAll('.navbar .nav-link');
+              allLinks.forEach(function(l) {
+                l.classList.remove('active');
+                l.removeAttribute('style');
+                if(document.body.classList.contains('dark-mode')) {
+                  l.setAttribute('style', 'color: #fff !important; background: transparent !important;');
+                } else {
+                  l.setAttribute('style', 'color: #222 !important; background: transparent !important;');
+                }
+              });
+              // رابط About Me هو الثاني (أول واحد بعد اسم البراند)
+              var aboutMeLink = document.querySelectorAll('.navbar .navbar-brand')[1];
+              if(aboutMeLink) {
+                aboutMeLink.classList.add('active');
+                if(document.body.classList.contains('dark-mode')) {
+                  aboutMeLink.setAttribute('style', 'background: #37ff00 !important; color: #111 !important; border-radius: 10px !important; box-shadow: 0 0 12px 2px #37ff0044 !important;');
+                } else {
+                  aboutMeLink.setAttribute('style', 'background: #00eaff !important; color: #fff !important; border-radius: 14px !important; box-shadow: 0 0 16px 2px #00eaff44 !important; border: 2px solid #00eaff !important; font-weight: bold !important; z-index: 3 !important; outline: 2px solid #00eaff !important;');
+                }
+              }
+              return;
+            }
+          }
+          // إذا كان أي سكشن ظاهر
+          let found = false;
+          for (let i = 0; i < sections.length; i++) {
+            const section = sections[i];
+            if (section) {
+              const rect = section.getBoundingClientRect();
+              if (rect.top <= 80 && rect.bottom > 80) {
+                // إزالة الـ active والـ style من رابط About Me
+                var aboutMeLink = document.querySelectorAll('.navbar .navbar-brand')[1];
+                if(aboutMeLink) {
+                  aboutMeLink.classList.remove('active');
+                  aboutMeLink.removeAttribute('style');
+                }
+                setActiveNavLink(navLinks[i]);
+                found = true;
+                break;
+              }
+            }
+          }
+          if (!found) {
+            // إذا لم يكن أي سكشن ظاهر، اجعل أول رابط هو النشط دائمًا
+            var allLinks = document.querySelectorAll('.navbar .nav-link');
+            allLinks.forEach(function(l) {
+              l.classList.remove('active');
+              l.removeAttribute('style');
+              if(document.body.classList.contains('dark-mode')) {
+                l.setAttribute('style', 'color: #fff !important; background: transparent !important;');
+              } else {
+                l.setAttribute('style', 'color: #222 !important; background: transparent !important;');
+              }
+            });
+            if(allLinks.length > 0) {
+              allLinks[0].classList.add('active');
+              if(document.body.classList.contains('dark-mode')) {
+                allLinks[0].setAttribute('style', 'background: #37ff00 !important; color: #111 !important; border-radius: 10px !important; box-shadow: 0 0 12px 2px #37ff0044 !important;');
+              } else {
+                allLinks[0].setAttribute('style', 'background: #00eaff !important; color: #222 !important; border-radius: 14px !important; box-shadow: 0 0 16px 2px #00eaff44 !important; border: 2px solid #00eaff !important; font-weight: bold !important; z-index: 3 !important; outline: 2px solid #00eaff !important;');
+              }
+            }
+          }
+        }
+        window.addEventListener('scroll', function() {
+          onScrollSpy();
+          forceFirstActiveLightMode();
+        });
+        onScrollSpy();
+        forceFirstActiveLightMode();
+
+        // مراقبة تغيير كلاس body (dark-mode/light-mode)
+        const observer = new MutationObserver(function() {
+          updateNavbarLinkColors();
+          onScrollSpy();
+          forceFirstActiveLightMode();
+        });
+        observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+      }
+    </script>
+  </body>
+</html>
